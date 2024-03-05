@@ -1,2 +1,16 @@
 
 [2024-03-05T14:02:56.429Z] You're already logged in to https://app.garden.io.
+
+[2024-03-05T14:03:13.908Z] Unable to load Garden project found at C:\Users\101798\OneDrive - UNIPHORE SOFTWARE SYSTEMS PVT LTD\kuber_pract\hello-world: Error: Path C:\Users\101798\OneDrive - UNIPHORE SOFTWARE SYSTEMS PVT LTD\kuber_pract\hello-world is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2024-03-05T14:03:13.952Z] Garden server has successfully started at port 9777
+
+
+[2024-03-05T14:03:18.044Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:03:18.698Z] Connecting project...
+
+[2024-03-05T14:03:19.173Z] Ready
+
+[2024-03-05T14:03:19.358Z] Path C:\Users\101798\OneDrive - UNIPHORE SOFTWARE SYSTEMS PVT LTD\kuber_pract\hello-world is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
