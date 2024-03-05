@@ -22,7 +22,7 @@ type: container
 kind: Deploy
 name: hello
 type: container
-# dependencies: ["build.api"]
+dependencies: ["build.hello"]
 spec:
   image: ${actions.build.api.outputs.deploymentImageId}
   sync:

@@ -109,3 +109,60 @@ https://app.garden.io/go/command/HRAvBGXRxX
 
 [2024-03-05T14:15:31.854Z] Syncs started during this session may still be active when this command terminates. You can run garden sync stop '*' to stop all code syncs. Hint: To stop code syncing when exiting garden dev, use Ctrl-D or the exit command.
 → Run garden util hide-warning dev-syncs-active to disable this message.
+
+[2024-03-05T14:40:16.982Z] Garden server has successfully started at port 9777
+
+
+[2024-03-05T14:40:17.716Z] 
+Connected to the Garden dashboard 
+Follow the link below to stream logs, run commands, and more from the Garden dashboard  
+
+https://app.garden.io/go/oRP4k0U4SV
+
+
+[2024-03-05T14:40:19.433Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:40:20.403Z] Connecting project...
+
+[2024-03-05T14:40:20.731Z] Ready
+
+[2024-03-05T14:40:21.724Z] View command results at: https://app.garden.io/go/command/wiu0rPUd7O
+
+[2024-03-05T14:40:22.014Z] Resolving providers...
+
+[2024-03-05T14:40:22.393Z] Configuring provider...
+
+[2024-03-05T14:40:22.417Z] Provider configured
+
+[2024-03-05T14:40:22.476Z] Configuring provider...
+
+[2024-03-05T14:40:22.482Z] Provider status cached
+
+[2024-03-05T14:40:22.715Z] Using detected context: docker-desktop
+
+[2024-03-05T14:40:22.720Z] Provider configured
+
+[2024-03-05T14:40:22.985Z] Ensuring nginx Ingress Controller...
+
+[2024-03-05T14:40:22.986Z] nginx Ingress Controller ready
+
+[2024-03-05T14:40:22.988Z] Not ready, will initialize
+
+[2024-03-05T14:40:23.819Z] Provider ready
+
+[2024-03-05T14:40:23.825Z] Finished resolving providers (took 1.8 sec)
+
+[2024-03-05T14:40:23.827Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2024-03-05T14:40:23.828Z] Resolving actions and modules...
+
+[2024-03-05T14:40:24.406Z] Finished resolving graph (took 0.6 sec)
+
+[2024-03-05T14:40:24.749Z] Could not find Build action api.
+
+Declared action names for action kind 'Build': hello
+
+[2024-03-05T14:40:24.752Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:41:03.520Z] Config change detected. Project will be reloaded when the next command is run.
