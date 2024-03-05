@@ -1,0 +1,14 @@
+# At the root of your project
+apiVersion: garden.io/v1
+kind: Project
+name: my-project
+
+variables:
+  base-hostname: hello-world.local.demo.garden
+
+environments:
+  - name: local
+
+providers:
+  - name: local-kubernetes
+    environments: [local]
