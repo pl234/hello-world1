@@ -14,3 +14,98 @@
 [2024-03-05T14:03:19.173Z] Ready
 
 [2024-03-05T14:03:19.358Z] Path C:\Users\101798\OneDrive - UNIPHORE SOFTWARE SYSTEMS PVT LTD\kuber_pract\hello-world is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2024-03-05T14:11:30.246Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:11:31.338Z] Connecting project...
+
+[2024-03-05T14:11:31.969Z] Ready
+
+[2024-03-05T14:11:33.311Z] View command results at: https://app.garden.io/go/command/1vJLBJ4PZh
+
+[2024-03-05T14:11:33.518Z] Resolving providers...
+
+[2024-03-05T14:11:33.972Z] Configuring provider...
+
+[2024-03-05T14:11:33.987Z] Provider configured
+
+[2024-03-05T14:11:33.996Z] Provider ready
+
+[2024-03-05T14:11:34.019Z] Configuring provider...
+
+[2024-03-05T14:11:39.508Z] Using current context: minikube
+
+[2024-03-05T14:11:44.260Z] Failed resolving one or more providers:
+- local-kubernetes
+
+[2024-03-05T14:11:44.263Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:12:57.644Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:12:59.007Z] View command results at: https://app.garden.io/go/command/HRAvBGXRxX
+
+[2024-03-05T14:12:59.013Z] Resolving providers...
+
+[2024-03-05T14:12:59.092Z] Configuring provider...
+
+[2024-03-05T14:12:59.100Z] Provider configured
+
+[2024-03-05T14:12:59.111Z] Provider status cached
+
+[2024-03-05T14:12:59.115Z] Configuring provider...
+
+[2024-03-05T14:12:59.288Z] Using detected context: docker-desktop
+
+[2024-03-05T14:12:59.292Z] Provider configured
+
+[2024-03-05T14:12:59.575Z] Ensuring nginx Ingress Controller...
+
+[2024-03-05T14:12:59.576Z] nginx Ingress Controller ready
+
+[2024-03-05T14:12:59.579Z] Not ready, will initialize
+
+[2024-03-05T14:13:00.902Z] Installing nginx in garden-system namespace...
+
+[2024-03-05T14:13:01.041Z] [kubernetes] Waiting for resources to be ready...
+
+[2024-03-05T14:13:03.181Z] [kubernetes] Deployment/default-backend: Pulling image "gardendev/default-backend:v0.1@sha256:1b02920425eea569c6be53bb2e3d2c1182243212de229be375da7a93594498cf"
+
+[2024-03-05T14:13:08.872Z] [kubernetes] Deployment/default-backend: Started container default-backend
+
+[2024-03-05T14:13:12.435Z] [kubernetes] Resources ready
+
+[2024-03-05T14:13:16.318Z] [kubernetes] Waiting for resources to be ready...
+
+[2024-03-05T14:13:18.416Z] [kubernetes] DaemonSet/garden-nginx-ingress-nginx-controller: Pulling image "k8s.gcr.io/ingress-nginx/controller:v1.1.0@sha256:f766669fdcf3dc26347ed273a55e754b427eb4411ee075a53f30718b4499076a"
+
+[2024-03-05T14:13:36.490Z] [kubernetes] DaemonSet/garden-nginx-ingress-nginx-controller: RELOAD NGINX reload triggered due to a change in configuration
+
+[2024-03-05T14:13:53.263Z] [kubernetes] Resources ready
+
+[2024-03-05T14:13:53.265Z] nginx successfully installed in garden-system namespace
+
+[2024-03-05T14:13:53.267Z] Provider ready
+
+[2024-03-05T14:13:53.309Z] Finished resolving providers (took 54.3 sec)
+
+[2024-03-05T14:13:53.311Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2024-03-05T14:13:53.312Z] Resolving actions and modules...
+
+[2024-03-05T14:13:53.334Z] Finished resolving graph (took 0 sec)
+
+[2024-03-05T14:13:53.338Z] Nothing to deploy. Aborting.
+
+[2024-03-05T14:13:54.249Z] 
+View command results at: 
+
+https://app.garden.io/go/command/HRAvBGXRxX 
+
+
+[2024-03-05T14:13:54.255Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Command deploy completed successfully! ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:15:31.854Z] Syncs started during this session may still be active when this command terminates. You can run garden sync stop '*' to stop all code syncs. Hint: To stop code syncing when exiting garden dev, use Ctrl-D or the exit command.
+→ Run garden util hide-warning dev-syncs-active to disable this message.
