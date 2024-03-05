@@ -12,3 +12,28 @@ environments:
 providers:
   - name: local-kubernetes
     environments: [local]
+---
+kind: Build
+name: hello
+type: container
+
+---
+
+kind: Deploy
+name: hello
+type: container
+# dependencies: ["build.api"]
+spec:
+  image: ${actions.build.api.outputs.deploymentImageId}
+  sync:
+    paths:
+      - source: ./
+        target: /usr/src/app
+        mode: "one-way-replica"
+  ports:
+    - name: http
+      containerPort: 8000
+  ingresses:
+    - path: /
+      port: http
+      hostname: backend.${var.base-hostname}
