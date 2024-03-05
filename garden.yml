@@ -24,7 +24,7 @@ name: hello
 type: container
 dependencies: ["build.hello"]
 spec:
-  image: ${actions.build.api.outputs.deploymentImageId}
+  image: ${actions.build.hello.outputs.deploymentImageId}
   sync:
     paths:
       - source: ./
