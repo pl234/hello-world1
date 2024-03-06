@@ -213,3 +213,77 @@ Declared action names for action kind 'Build': hello
 [2024-03-05T14:41:51.771Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 [2024-03-05T14:42:17.742Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2024-03-05T14:42:38.353Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2024-03-05T14:42:39.325Z] Connecting project...
+
+[2024-03-05T14:42:39.969Z] Ready
+
+[2024-03-05T14:42:40.428Z] View command results at: https://app.garden.io/go/command/Bd3gClSD9M
+
+[2024-03-05T14:42:40.961Z] Resolving providers...
+
+[2024-03-05T14:42:41.012Z] Configuring provider...
+
+[2024-03-05T14:42:41.023Z] Provider configured
+
+[2024-03-05T14:42:41.052Z] Provider status cached
+
+[2024-03-05T14:42:41.061Z] Configuring provider...
+
+[2024-03-05T14:42:41.274Z] Using detected context: docker-desktop
+
+[2024-03-05T14:42:41.277Z] Provider configured
+
+[2024-03-05T14:42:41.328Z] Ensuring nginx Ingress Controller...
+
+[2024-03-05T14:42:41.330Z] nginx Ingress Controller ready
+
+[2024-03-05T14:42:41.331Z] Not ready, will initialize
+
+[2024-03-05T14:42:41.728Z] Provider ready
+
+[2024-03-05T14:42:41.735Z] Finished resolving providers (took 0.8 sec)
+
+[2024-03-05T14:42:41.736Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2024-03-05T14:42:41.737Z] Resolving actions and modules...
+
+[2024-03-05T14:42:41.755Z] Finished resolving graph (took 0 sec)
+
+[2024-03-05T14:42:41.790Z] Getting status for Deploy hello (type container)...
+
+[2024-03-05T14:42:41.886Z] Status is missing, hello will be deployed
+
+[2024-03-05T14:42:41.888Z] Getting status for Build hello (type container)...
+
+[2024-03-05T14:42:45.755Z] Status is not ready, hello will be built
+
+[2024-03-05T14:42:45.758Z] Building hello (type container) at version v-0c2ca98e9a...
+
+[2024-03-05T14:42:47.357Z] Building hello:v-f4236b68f0...
+
+[2024-03-05T14:42:57.122Z] Done (took 11.4 sec)
+
+[2024-03-05T14:42:57.125Z] Deploying hello (type container) at version v-80e4844dc5...
+
+[2024-03-05T14:42:58.092Z] [kubernetes] Waiting for resources to be ready...
+
+[2024-03-05T14:43:00.151Z] [kubernetes] Resources ready
+
+[2024-03-05T14:43:00.189Z] Ingress: http://backend.hello-world.local.demo.garden
+
+[2024-03-05T14:43:00.191Z] Done (took 3.1 sec)
+
+[2024-03-05T14:43:00.248Z] Done! 
+
+[2024-03-05T14:43:00.569Z] 
+View command results at: 
+
+https://app.garden.io/go/command/Bd3gClSD9M 
+
+
+[2024-03-05T14:43:00.573Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Command deploy completed successfully! ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
